@@ -1,12 +1,13 @@
 ---
-title: Audio Grammar Rating Platform
+title: Audio Grammar Analyzer
 emoji: 🎙️
-colorFrom: cyan
-colorTo: green
+colorFrom: blue
+colorTo: purple
 sdk: docker
-app_port: 7860
 pinned: false
+app_port: 7860
 ---
+
 
 # Audio Grammar Analyzer (Backend + Frontend)
 
