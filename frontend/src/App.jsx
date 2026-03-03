@@ -1,7 +1,8 @@
 import { useMemo, useRef, useState } from "react";
 
-// const API_URL = "/score-audio/";
-const API_URL = "http://localhost:8000/score-audio/"
+// VITE_API_URL is set in Vercel's environment variables (points to HF Spaces backend).
+// Falls back to localhost for local development.
+const API_URL = (import.meta.env.VITE_API_URL ?? "http://localhost:8000") + "/score-audio/";
 // Dynamically check what audio format the user's browser actually supports
 function getSupportedMimeType() {
   const possibleTypes = [

@@ -1,3 +1,13 @@
+---
+title: Audio Grammar Rating Platform
+emoji: 🎙️
+colorFrom: cyan
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Audio Grammar Analyzer (Backend + Frontend)
 
 Full-stack project for grammatical fluency scoring from audio:
