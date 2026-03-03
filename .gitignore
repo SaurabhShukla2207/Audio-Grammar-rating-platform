@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Temp / OS files
+*.tmp
+test_tone.wav
+.DS_Store
+Thumbs.db
+
+# Model cache (large HuggingFace downloads)
+.cache/
+
+# Vite build output
+frontend/dist/
